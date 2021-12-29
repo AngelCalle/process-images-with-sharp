@@ -1,0 +1,18 @@
+{
+  "name": "process-images-with-sharp",
+  "version": "1.1.1",
+  "description": "How To Process Images in Node.js With Sharp",
+  "scripts": {
+    "read-image": "cd js && node readImage.js",
+    "resize-image": "cd js && node resizeImage.js",
+    "crop-image": "cd js && node cropImage.js",
+    "rotate-image": "cd js && node rotateImage.js",
+    "composite-images": "cd js && node compositeImages.js",
+    "add-text-on-image": "cd js && node addTextOnImage.js"
+  },
+  "author": "Ángel Calle",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.29.3"
+  }
+}
